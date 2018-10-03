@@ -1,4 +1,4 @@
-# Farmbot v1.0
+# Not-a-Farmbot v1.0
 
 Made by Lukasz Komza at the Bergen County Academies in Hackensack, NJ, USA.
 
@@ -14,7 +14,7 @@ GRBLtoArduino.ino
 
 ### Software Guide
 
-The Universal GCode Sender installation guide and download can be found [here](https://winder.github.io/ugs_website/). The version 2.0 nightly build was used. It was used to queue whole GCode files to the farmbot instead of individual commands, which was all that could be done using the serial monitor with GRBLtoArduino.ino
+The Universal GCode Sender installation guide and download can be found [here](https://winder.github.io/ugs_website/). The version 2.0 nightly build was used. It was used to queue whole GCode files to the Not-a-Farmbot instead of individual commands, which was all that could be done using the serial monitor with GRBLtoArduino.ino
 
 Sungeun K. Jeon's simple_stream.py can be found [here](https://github.com/grbl/grbl/tree/master/doc/script). For this project, simple_stream.py was used, but stream.py can also be implemented. It was also used to queue whole GCode files, but UGS proved to be easier to use.
 
